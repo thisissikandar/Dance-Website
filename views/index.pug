@@ -1,0 +1,72 @@
+//- index.pug
+doctype html
+html
+  head
+    title Best Dance Academy
+    script(src='https://kit.fontawesome.com/fe6cb16bc3.js' crossorigin='anonymous')
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul
+        div#logo
+          img(src="static/img/logo.png")
+          |HDA
+        li #[a(href="/") Home] 
+        li #[a(href="/") About] 
+        li #[a(href="/") Sevices]
+        li #[a(href="/") Class nfo]
+        li #[a(href="/") Contact Us]
+
+        div.input-field
+        input(
+          type="text" 
+          class="autocomplete z-depth-0" 
+          id="autocomplete-input" 
+          placeholder="Search.."
+        )
+  
+
+    section#introsection 
+       h1 Welcome to the best Dance Academy 
+       div|Eat Dance Sleep Repeat
+
+    section#missionsection
+      h1 Our mission 
+      .card
+        h3 Dance Prefection
+        .card-box 
+          .card-img 
+            img(src="static/img/1.png")
+          .card-content
+            p this is the best dance academy of the universe 
+
+            
+      .card
+        h3 Dance the way like you
+        .card-box 
+          .card-img 
+            img(src="static/img/2.png")
+          .card-content
+            p this is the best dance academy of the universe 
+      .card
+        h3 Expert teaching
+        .card-box 
+          .card-img 
+            img(src="static/img/3.png")
+          .card-content
+            p this is the best dance academy of the universe 
+       
+
+    section#sponsersection 
+      h2 Our Sponsers 
+      .sponser 
+       i.fa.fa-apple
+       i.fa.fa-windows
+       i.fa.fa-skype
+       i.fa.fa-google-plus
+
+    section#footer 
+      | Copywrite © 2021 BestDanceAcademy.com | All rights reserved
+    script
+      include ../static/script.js

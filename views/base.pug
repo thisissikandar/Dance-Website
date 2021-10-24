@@ -1,0 +1,29 @@
+doctype html
+html
+  head
+    title Best Dance Academy
+    block scripts
+    block scripts
+    block style
+  body
+    nav#navbar 
+      ul
+        div#logo
+          img(src="static/img/logo.png")
+          |BDA
+        li #[a(href="/") Home] 
+        li #[a(href="/") About] 
+        li #[a(href="/") Sevices]
+        li #[a(href="/") Class nfo]
+        li #[a(href="/contact") Contact Us]
+
+        div.input-field
+        input(
+          type="text" 
+          class="autocomplete z-depth-0" 
+          id="autocomplete-input" 
+          placeholder="Search.."
+        )
+    block content
+    section#footer 
+      | Copywrite © 2021 BestDanceAcademy.com | All rights reserved

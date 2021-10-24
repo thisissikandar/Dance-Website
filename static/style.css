@@ -1,0 +1,138 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#navbar{
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(113 182 78);
+    padding: 4px 6px;
+
+}
+  /* Search bar TOP */
+nav .input-field {
+    position: absolute;
+    bottom: 0px;
+    left: 420px;
+    width: 22%;
+    max-width: 300px;
+  }
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 28px;
+    margin-right: 76px;
+}
+#logo img{
+    height: 43px;
+    filter: invert(1);
+}
+#navbar ul{
+ display: flex;
+ flex-direction: row;
+ /* justify-content: center; */
+ align-items: center;
+    
+}
+#navbar li{
+ list-style: none;
+
+}
+#navbar li a{
+    font-size: large;
+    text-decoration: none;
+    padding: 7px 12px;
+    color: white;
+}
+#navbar li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 7px 12px;
+    color: rgb(131, 52, 52);
+}
+#introsection{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../static/bg.jpg) center/ cover no-repeat;
+    height: 300px;
+
+}
+#missionsection h1{
+    /* background: black; */
+    /* color: white; */
+    text-align: center;
+    padding-top: 12px;
+}
+#missionsection{
+    height: 300px;
+    width: 67%;
+    margin: auto;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 26px 14px;
+    height: 209px;
+
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+.card-content{
+    padding: 0 15px;
+}
+.card-content p{
+    font-size: 16px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img {
+    height: 100px;
+    padding: 0 14px;
+    margin: 18px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+#sponsersection{
+    text-align: center;
+    height: 300px;
+    background-color: rgb(19, 175, 115);
+}
+#sponsersection h2{
+    padding-top: 12px;
+    /* background: black; */
+    /* color: white; */
+}
+
+#footer {
+    display: flex;
+    color: white;
+    text-align: center;
+    height: 60px;
+    justify-content: center;
+    font-size: 20px;
+    background-color:  black;
+}
+#sponsersection i{
+    width: 151px;
+    height: 103px;
+    margin: 30px 30px;
+    padding: 75px;
+    font-size: 93px;
+}
